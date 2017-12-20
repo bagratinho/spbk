@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "baseUrl": ".",
+    "sourceMap": true,
+    "target": "es5",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts",
+    "jsx": "react",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "removeComments": true,
+    "strictNullChecks": false,
+    "skipDefaultLibCheck": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "outDir": "build",
+    "lib": [
+      "es6",
+      "es7",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
+}
+
